@@ -96,3 +96,8 @@ prevBtn.addEventListener("click", prevSong);
 audio.addEventListener("ended", nextSong);
 
 
+//Oldal megnyitásakor consolba írás
+window.addEventListener("load", () => {
+
+    console.log("Oldal betöltődése kész");
+})
